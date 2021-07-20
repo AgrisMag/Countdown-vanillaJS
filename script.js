@@ -24,11 +24,6 @@ function countdown() {
     document.getElementById("minute-count").innerHTML = minutes;
     document.getElementById("second-count").innerHTML = seconds;
 
-    // if (distance < 0) {
-    //     clearInterval(x);
-    //     document.getElementById("demo").innerHTML = "Priecīgus Ziemassvētkus";
-    // }
-
     setTimeout(countdown, 1000);
 }
 
